@@ -32,7 +32,7 @@
 		</h1>
 		<div id="left_header">
 			<p>
-				Bienvenue
+				Welcome
 				<?php
 					echo $_SESSION['utilisateur']->getNomComplet();
 				?>
