@@ -1,0 +1,45 @@
+div {
+	text-align:center;
+	}
+div#bandeau {
+	width:1100px;
+	height:50px;
+	background-color:#FFFFFF;
+	}
+div#menu {
+	float:left;
+	width:100px;
+	height:400px;
+	background-color:#FFFFFF;
+	}
+div#menu_haut {
+	width:100px;
+	height:450px;
+	background-color:#FFFFFF;
+	}
+
+
+div#contenu {
+	float:left;
+	min-width: 300px;
+	background-color:#FFFFFF;
+}
+	
+div#tonAutreBloc { 
+	float:left; 
+	height:450px; 
+	background-color:#FFFFFF; 
+	} 
+	
+div#bloc_news {
+	float:right;
+	width:150px;
+	height:450px;
+	background-color:#FFFFFF;
+	}
+div#pied_page {
+	clear:both;
+	width:1100px;
+	height:50px;
+	background-color:#FFFFFF;
+	}

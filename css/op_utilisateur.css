@@ -1,0 +1,37 @@
+#info_utilisateur{
+    max-width: 440px;
+    margin: 10px auto;
+    border: solid black 1px;
+    border-radius: 6px;
+}
+
+#info_utilisateur p{
+    padding: 0;
+    text-align: left;
+}
+
+.label {
+    min-width: 100px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type="button"]{
+    height: 40px;
+    width: 180px;
+    font-size: 1.4em;
+}
+
+#btn_decline_admin_rank{
+    color: red;
+}
+
+.isAdmin {
+    color: green;
+    font-style: italic;
+}
+
+.hidden{
+    display: none;
+}

@@ -1,0 +1,203 @@
+body
+{
+	font-family:Calibri,"sans-serif";
+} 
+
+a, a:visited {
+	text-decoration:none;
+	color:#003873;
+}
+
+a:hover, a:active {
+	text-decoration:underline;
+	color:#003873;
+	cursor:pointer;
+}
+
+#menuTop ul li {
+	display:inline;
+	list-style:none;
+}
+
+#moisCourant, #anneeCourante
+{
+	display: none;
+}
+
+#calendrier
+{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:0.8em;
+}
+
+.conteneurCase
+{
+	width: 14.28%;
+}
+
+.case
+{
+	width: 100%;
+	height: 100px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.today
+{
+	border: 2px solid red;
+	width: 100%;
+	height: 100px;
+	border-collapse: collapse;
+}
+
+.numeroJour
+{
+	font-size:1.5em;
+	padding-left:5px;
+	background-color:#003873;
+	color:white;
+	height: 1em;
+}
+
+.periode
+{
+	border: 1px solid black;
+	width: 17%;
+	padding-left:2px;
+}
+
+.statutPeriode
+{
+	border: 1px solid black;
+	width: 83%;	
+	padding-left:2px;
+}
+
+.center
+{
+	text-align: center;
+}
+
+#navRow
+{
+	margin-bottom: 20px;
+}
+
+.navCal
+{
+	color: #003873;
+	text-decoration: none;
+	font-size:1.5em;
+}
+
+.navCal:hover
+{
+	color: #003873;
+	text-decoration: underline;
+	cursor: pointer;
+	font-size:1.5em;
+}
+
+.nomsJours, .nomMois
+{
+	color: #003873;
+	font-size:1.5em;
+}
+
+.nomsJours
+{
+	border-bottom: 1px solid black;
+}
+
+.contenuCellule{
+	position:relative;
+}
+
+.commentImage{
+	position:absolute;
+	top: -4px;
+	right: 0px;
+}
+
+#show_documentation{
+	position: fixed;
+	top: 25px;
+	right: 15px;
+}
+
+#documentation {
+	background-color: lightblue;
+	padding : 10px;
+	text-align: center;
+	border-radius: 0 15px 15px 0;
+}
+
+.showMeDocumentation {
+	font-weight: bold;
+}
+
+img.tuto_utilisation,.tuto_utilisation img  {
+	border-radius: 6px;
+	border: solid black 1px;
+}
+
+#documentation div fieldset {
+	display: block;
+	max-width: 750px;
+	margin: 10px auto;
+}
+
+.big_or {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+.hasDatepicker {
+	background-color: yellow;
+}
+
+.inputHoliday  {
+	border:solid  black 1px;
+	border-radius: 4px;
+	box-shadow: -1px 1px 3px 1px rgba(0, 0, 0, 0.3) inset;
+}
+
+#navRow {
+	pointer-events: visiblePainted;
+}
+
+#chosen_holiday {
+	border: solid red 3px;
+	border-radius: 6px;
+	box-shadow: 1px 1px 2px 1px rgba(0,0,0, 0.3);
+	padding: 10px;
+}
+
+#chosen_holiday input[type="button"] {
+	margin-left: 10px;
+	height: 28px;
+	width: 90px;
+}
+
+#left_header {
+	float: left;
+	margin: 0 40px 10px 0;
+}
+
+#right_header {
+	margin: 40px 0 0 0;
+}
+
+h1 {
+	text-align: center;
+	color: #008647;
+	margin-top: 5px;
+}
+
+h1 img{
+	display: block;
+	margin: 10px auto;
+}

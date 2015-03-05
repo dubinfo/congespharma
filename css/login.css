@@ -1,0 +1,171 @@
+body
+{
+	font-family:Calibri,"sans-serif";
+} 
+
+.Style1 
+{
+	color: #FF0000;
+}
+.Style2 
+{
+	color: #0000FF;
+	font-weight: bold;
+}
+.Style4 
+{
+	color: #0000FF; 
+	font-weight: bold; 
+	font-size: 16px; 
+}
+
+.Style5
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.Style6
+{
+	color: #000000;
+}
+
+#td_texte_identifiants_nok
+{
+	color: red;
+	font-weight: bold;
+}
+
+header {
+	text-align: center;
+}
+
+h1
+{
+  text-align: center;
+  color: #008647;
+}
+
+#body_login{
+	min-height: 400px;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+.bloc_login{
+	display: inline-block;
+	width:50%;
+}
+
+#form1 {
+	margin: 0 auto;
+	width: 300px;
+}
+
+#form1 p{
+	width: 300px;
+	text-align: left;
+}
+
+#form1 input[type="submit"] {
+	margin-left: 25px;
+}
+
+#nouvel_utilisateur form {
+	max-width: 650px;
+}
+
+#show_documentation {
+	display: block;
+	width: 75px;
+	margin: 5px auto;
+}
+
+#documentation {
+	background-color: lightblue;
+	padding : 10px;
+	text-align: center;
+	border-radius: 6px;
+	border-radius: 0 15px 15px 0;
+}
+
+.showMeDocumentation {
+	font-weight: bold;
+}
+
+img.tuto_utilisation,.tuto_utilisation img  {
+	border-radius: 6px;
+	border: solid black 1px;
+}
+
+#documentation div fieldset {
+	display: block;
+	max-width: 750px;
+	margin: 10px auto;
+}
+
+.big_or {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+a, a:visited {
+	text-decoration:none;
+	color:#003873;
+}
+
+a:hover, a:active {
+	text-decoration:underline;
+	color:#003873;
+	cursor:pointer;
+}
+
+#password_forgot_request {
+	width: 100%;
+	background-color: lightblue;
+	border: solid black 1px;
+	border-radius: 6px;
+	min-height: 140px;
+}
+
+#password_forgot_request form{
+	margin-top: 30px;
+}
+
+#top_forgot_password{
+	color: #fdfdfd;
+	margin-top: 0;
+	padding-top: 5px;
+	min-height: 35px;
+	font-size: 1.2em;
+	font-weight: bold;
+	vertical-align: middle;
+	background-color: #057540;
+}
+
+.small_size{
+	min-height: 0!important;
+}
+
+.error_message{
+	color: red;
+	font-weight: bold;
+}
+
+#table_inscription tr td{
+	padding: 5px 0;
+}
+
+#table_inscription label {
+	float: right;
+	margin-right: 30px;
+}
+
+#table_inscription input, #table_inscription select{
+	width: 100%;
+}
+
+#table_inscription input[type="checkbox"] {
+	width: 10px;
+	float: left;
+}

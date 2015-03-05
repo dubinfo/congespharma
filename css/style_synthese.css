@@ -1,0 +1,136 @@
+#tab_synthese
+{
+	margin: 0 auto;
+	/*width: 80%;*/
+	/*font-size: larger;*/
+ 
+ -webkit-border-radius: 10px 10px 0 0;
+-moz-border-radius:10px 10px 0 0;
+border-radius: 10px 10px 0 0;
+overflow: hidden;
+
+}
+
+#tab_synthese
+{
+ width: 80%;
+ height: 25px;
+	padding: 15px;
+ background-color: #444444;
+
+}
+
+tr#tab_synthese
+{
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  height: 85px;
+  background-color: #00FF00;
+  border-bottom: 5px solid white;
+  
+}
+
+#tab_synthese:hover
+{
+  
+  background-color: #444444;
+  
+}
+
+
+tr#tab_synthese th
+{
+  
+  padding: 30px;
+}
+
+
+
+#tab_synthese tr:nth-child(even)
+
+{
+ 
+  background-color:#5CBEC6;
+  
+}
+
+#tab_synthese tr:nth-child(odd)
+
+{
+ 
+  background-color:#5CBEC6;
+  
+}
+
+#tab_synthese tr:hover
+{
+  background-color:#EBE3D7!important; /*Couleur du survol*/
+}
+
+#tab_synthese tr:first-child:hover
+{
+  background-color:#444444!important; /*Couleur du survol*/
+}
+
+
+/*En-tête*/
+#tab_synthese tr:first-child
+{
+
+  background-color: #444444;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  height: 45px;
+
+}
+
+#tab_synthese th
+{
+    font-weight: normal;
+    padding: 11px;
+    text-align: left;
+    width: 100%;
+}
+
+.aujourdhui
+{
+   background-color: #FFFFE0!important;
+}
+
+.supprimer_conge
+{
+  cursor: pointer;
+  
+}
+#filters{
+  margin: 0 20% 0 20%;
+  border-radius: 10px 10px 0 0;
+  background-color: #444444;
+  color: white;
+  max-width: 550px;
+  min-height: 30px;
+  padding: 5px 5px 0 5px;
+  font-weight: bold;
+}
+
+#filters div{
+	display: inline-block;
+	margin: 5px 0 10px 2px;
+}
+
+#count_days {
+	float: left;
+}
+
+#export_from_excel
+{
+	position: fixed;
+	max-width: 180px;
+	min-width: 70px;
+	width: 10%;
+	text-align: center;
+	background-color: rgba(150,150,150,0.2);
+	border-radius: 6px;
+}

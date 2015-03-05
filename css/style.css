@@ -1,0 +1,48 @@
+body
+{
+	font-family:Calibri,"sans-serif";
+} 
+
+a, a:visited {
+	text-decoration:none;
+	color:#003873;
+}
+
+a:hover, a:active {
+	text-decoration:underline;
+	color:#003873;
+	cursor:pointer;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border:1px solid black;
+	border-collapse: collapse;
+}
+
+thead, tfoot {
+	color:#ffffff;
+	background-color:#003873;
+}
+
+td, th {
+	border:1px solid black;
+	padding-left:5px;
+}
+
+ul li {
+	display:inline;
+	list-style:none;
+}
+
+/*Formulaire de séléction de la catégorie d'un plat dans un menu*/
+.ui-dialog {background-color: white; border:1px solid black; margin:0px; padding:0px;}
+.ui-dialog-titlebar {background-color: #003873; color:white; padding:.3em;}
+.ui-dialog-titlebar  a {color:black;}
+.ui-icon-closethick {}
+.ui-dialog-title-dialog {}
+.ui-dialog-titlebar-close {float:right;}
+.ui-dialog-content {margin:.3em; padding:.3em;}
+.ui-dialog-content input {width:98%;}
